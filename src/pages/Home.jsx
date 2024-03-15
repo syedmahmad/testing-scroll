@@ -6,7 +6,7 @@ const Home = () => {
       <div>This is home page</div>
 
       <div style={{ margin: "20px 0px" }}>
-        <Link to="/contact" preventScrollReset={true}>
+        <Link to="/contact" preventScrollReset={false}>
           Go to Contact Page
         </Link>
       </div>
@@ -92,7 +92,7 @@ const Home = () => {
         doors quick child an point at. Had share vexed front least style off why
         him.
       </p>
-      <Link to="/contact" preventScrollReset={true}>
+      <Link to="/contact" preventScrollReset={false}>
         Go to Contact Page
       </Link>
       <p>
@@ -136,6 +136,11 @@ const Home = () => {
         doors quick child an point at. Had share vexed front least style off why
         him.
       </p>
+      <div style={{ margin: "20px 0px" }}>
+        <Link to="/contact" preventScrollReset={false}>
+          Go to Contact Page
+        </Link>
+      </div>
       <p>
         Not far stuff she think the jokes. Going as by do known noise he wrote
         round leave. Warmly put branch people narrow see. Winding its waiting
@@ -179,7 +184,7 @@ const Home = () => {
       </p>
 
       <div style={{ margin: "20px 0px" }}>
-        <Link to="/contact" preventScrollReset={true}>
+        <Link to="/contact" preventScrollReset={false}>
           Go to Contact Page
         </Link>
       </div>

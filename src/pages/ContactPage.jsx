@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <div style={{ margin: "20px 0px" }}>
-        <Link to="/" preventScrollReset={true}>Go back to homepage</Link>
+        <Link to="/" preventScrollReset={false}>Go back to homepage</Link>
       </div>
       <h1>This is contact page</h1>
       <p>
@@ -90,7 +90,7 @@ const Contact = () => {
         doors quick child an point at. Had share vexed front least style off why
         him.
       </p>
-      <Link to="/" preventScrollReset={true}>Go back to homepage</Link>
+      <Link to="/" preventScrollReset={false}>Go back to homepage</Link>
       <p>
         Not far stuff she think the jokes. Going as by do known noise he wrote
         round leave. Warmly put branch people narrow see. Winding its waiting
@@ -132,6 +132,9 @@ const Contact = () => {
         doors quick child an point at. Had share vexed front least style off why
         him.
       </p>
+      <div style={{ margin: "20px 0px" }}>
+        <Link to="/" preventScrollReset={false}>Go back to homepage</Link>
+      </div>
       <p>
         Not far stuff she think the jokes. Going as by do known noise he wrote
         round leave. Warmly put branch people narrow see. Winding its waiting
@@ -173,7 +176,7 @@ const Contact = () => {
         doors quick child an point at. Had share vexed front least style off why
         him.
       </p>
-      <Link to="/" preventScrollReset={true}>Go back to homepage</Link>
+      <Link to="/" preventScrollReset={false}>Go back to homepage</Link>
       <p>
 
         Not far stuff she think the jokes. Going as by do known noise he wrote
@@ -216,7 +219,7 @@ const Contact = () => {
         doors quick child an point at. Had share vexed front least style off why
         him.
       </p>
-      <Link to="/" preventScrollReset={true}>Go back to homepage</Link>
+      <Link to="/" preventScrollReset={false}>Go back to homepage</Link>
       <h1>End Of Contact Page</h1>
     </>
   );
